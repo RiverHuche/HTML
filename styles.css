@@ -1,45 +1,52 @@
-main, h1{ padding: 1em;}
-
-html{
-  background-color: lightgray;
+body{
+  margin: 5em;
 }
 
-img{
-  height: 10rem;
-  width: auto;
-  border-radius: 10%;
-  box-shadow: 10px 5px 5px rgb(85, 85, 85);
+ul{  
+  padding: 0;
+  list-style-type: none;
+  
 }
 
-h1 {
-    color : orangered
+header ul {
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-bottom-color: grey;
 }
 
-main p{
-  background-color: gainsboro;
+a{
+  text-decoration: none;
+  color : blue;
 }
 
-p {
-  color: orangered;
+li{
+  margin-right: 2em;
+  margin-top: 1em;
 }
 
-main li{
-  border: thin solid black;
-  padding: 1em;
-  background-color: gainsboro;
+main{
+  padding-top: 2em;
+}
+
+article{
+  margin-right: 20%;
 }
 
 footer{
-  color : orangered ; 
-  border: thin solid black;
+  padding-top: 1em;
 }
 
-nav ul li  { 
-    list-style-type: None ;
-    box-shadow: 10px 5px 5px rgb(85, 85, 85);
-
+footer > p{
+  margin: 0;
 }
 
-header ul li {
-    list-style-type: None ;
+
+h1>span{
+  display: block;
+  font-style : italic;
+  color: grey;
+  border-bottom-style: solid ;
+  border-bottom-width: thick;
+  border-bottom-color: black ;
 }
+
