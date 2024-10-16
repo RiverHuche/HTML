@@ -1,0 +1,33 @@
+body {
+    display : flex;
+    flex-wrap : wrap;
+}
+
+header {
+    flex-grow: 1;
+    height : 30% ;
+    flex-basis : 100%;
+}
+
+header h1 {
+    border-style :ridge;
+}
+
+section {
+    display : flex;
+    flex-wrap : wrap
+
+}
+
+section img :first-of-type {
+    float : left;
+}
+
+section img :last-of-type {
+    float : left;
+}
+
+nav {
+
+}
+
